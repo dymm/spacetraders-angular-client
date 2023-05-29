@@ -6,5 +6,5 @@ additionalProperties:
   npmName: spacetraders-angular-client
   npmVersion: 1.0.1
   snapshot: false
-  ngVersion: 10.0.0
+  ngVersion: 15.2.9
   apiModulePrefix: SpaceTraders
