@@ -1,11 +1,12 @@
 {
   "name": "spacetraders-angular-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Spacetraders Angular Client",
   "main": "index.js",
   "scripts": {
     "generate-sources": "JS_POST_PROCESS_FILE=prettier openapi-generator-cli generate -c config.yaml",
-    "publish": "cd dist && npm publish",
+    "compile": "cd dist && npm install && npm run build",
+    "publish": "cd dist/dist && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

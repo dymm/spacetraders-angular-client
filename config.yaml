@@ -2,9 +2,11 @@ generatorName: typescript-angular
 outputDir: ./dist
 inputSpec: https://stoplight.io/api/v1/projects/spacetraders/spacetraders/nodes/reference/SpaceTraders.json?fromExportButton=true&snapshotType=http_service&deref=optimizedBundle
 enablePostProcessFile: true
+gitUserId: dymm
+gitRepoId: spacetraders-angular-client
 additionalProperties:
   npmName: spacetraders-angular-client
-  npmVersion: 1.0.1
+  npmVersion: 1.0.2
   snapshot: false
   ngVersion: 15.2.9
   apiModulePrefix: SpaceTraders
