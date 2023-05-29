@@ -1,0 +1,27 @@
+{
+  "name": "spacetraders-angular-client",
+  "version": "1.0.1",
+  "description": "Spacetraders Angular Client",
+  "main": "index.js",
+  "scripts": {
+    "generate-sources": "JS_POST_PROCESS_FILE=prettier openapi-generator-cli generate -c config.yaml",
+    "publish": "cd dist && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/dymm/spacetraders-angular-client"
+  },
+  "keywords": [
+    "spacetraders",
+    "client",
+    "api",
+    "angular"
+  ],
+  "author": "dymm",
+  "license": "ISC",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.6.0",
+    "prettier": "^2.8.8"
+  }
+}
